@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.task-1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+}
+.task-1-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 40px;
+}
+.task-1-li{
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.task-2-li{
+    width: 620px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.deletebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 80%;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+.deletebtn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 70%;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+.donebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 90%;
+    background-color: green;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+.price{
+    position: absolute;
+    left:60%;
+}
+.name{
+    position: absolute;
+    left:0%;
+}
+.task-2-li span{
+    position: absolute;
+    left:0%;
+}
+.search-inp{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 29.5%;
+    width: 350px;
+    height: 40px;
+}
+.sortbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    height: 30px;
+    margin-top: 20px;
+}
+.header-list-item{
+    display: flex;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-h3{
+    margin-top: 30px;
+}
+.form input{
+    width: 200px;
+    height: 25px;
+}
+.form button{
+    width: 200px;
+    height: 25px;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.name-div{
+    display: flex;
+    margin-top: 10px;
+}
+.name-div label{
+    margin-right: 10px;
+}
+.form-2{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form-2 input{
+    width: 200px;
+    height: 25px;
+}
+.form-2 button{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 25px;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.search-inp-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.sort-btn-2{
+    color: white;
+    background-color: green;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
